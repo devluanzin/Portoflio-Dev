@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  --bg-color: #16181D;
+  --icon-bg-color: #292C34;
+  --color-font: #ffffff;
+  font-family: 'Inter', sans-serif;
+}
