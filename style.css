@@ -1,6 +1,6 @@
 @import url(./global.css);
 
-body{
+body {
   background: url(./assets/bg.png) no-repeat top center/cover;
 }
 
@@ -46,8 +46,43 @@ body{
   font-weight: 300;
 }
 
-#apresentation p {
+#about {
   font-size: 14px;
   font-weight: 200;
+}
+
+#hability-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 80px;
+}
+
+.hability-bg {
+  background: var(--icon-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 999px;
+  padding: 8px 16px;
+}
+
+.hability-icons {
+  width: 24px;
+}
+
+#html {
+  color: #E3646E;
+}
+
+#css {
+  color: #3996DB;
+}
+
+.hability-text {
+  font-size: 16px;
+  font-weight: 500;
 }
 
