@@ -13,9 +13,41 @@ body{
   margin: 151px auto;
 }
 
-#pfp img {
+#photo {
   width: 150px;
   border-radius: 50%;
   border: 2px solid red;
   padding: 5px;
 }
+
+#dev-simbol {
+  width: 40px;
+  height: 35px;
+  position: absolute;
+  left: 52vw;
+  top: 35vh;
+  z-index: 1;
+}
+
+#apresentation {
+  margin-top: 56px;
+  text-align: center;
+  color: var(--color-font);
+}
+
+#apresentation h1 {
+  margin: 8px 0 20px;
+  font-size: 56px;
+  color: var(--color-h1-font);
+}
+
+#apresentation h3 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#apresentation p {
+  font-size: 14px;
+  font-weight: 200;
+}
+
